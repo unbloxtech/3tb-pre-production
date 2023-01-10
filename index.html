@@ -704,16 +704,17 @@
 											<p class="text-center text-uppercase double-margin-bottom" style="color:#816614">+91 96077 09990</p>
 										</div>
 									</div>
-									<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSebt1bd_JI65w2SDU1rHnPM9l0x-Dlq1BNdID2obxOJ7S_aGQ/formResponse" method="post">
+									<form id="my-form">
 										<div id="contact_alert" class="alert notice"></div>
 										<label for="your_name" class="screen-reader-text">Name</label>
-										<input type="text" name="entry.670742167" value="" size="40"  placeholder="Your name...">
+										<input type="text" name="entry.670742167" value="" size="40"  placeholder="Your name..." required>
 										<label for="your_email" class="screen-reader-text">Email</label>
-										<input type="email" name="entry.508703397" value="" size="40"  placeholder="Your email...">
+										<input type="email" name="entry.508703397" value="" size="40"  placeholder="Your email..." required>
 										<label for="your_message" class="screen-reader-text">Message</label>
-										<textarea name="entry.1882787541" cols="40" rows="10"  placeholder="Here goes the message..."></textarea>
+										<textarea name="entry.1882787541" cols="40" rows="10"  placeholder="Here goes the message..." required></textarea>
 										<p><input type="submit" class="button-color button-filled" value="Send Message"></p>
 									</form>
+									<div id="form-success"></div>
 								</div>
 							</div>
 							<img src="tmp/sample-digital-map.png" alt="">
